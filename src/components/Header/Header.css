@@ -1,0 +1,33 @@
+.navbar{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+
+
+.link{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 18px;
+    transition: color ease-in-out 25ms;
+    color: #1b50c3e0;
+}
+.link:hover{
+    color: rgb(136, 32, 233);
+}
+
+.active-link{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 18px;
+    transition: color ease-in-out 25ms;
+    color: blue;
+}
