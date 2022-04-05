@@ -1,0 +1,29 @@
+.home-section{
+    margin-top: 60px;
+    
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-info{
+    width: 600px;
+    margin-left: 110px;
+    
+    
+}
+
+.product-info p{
+    font-size: 18px;
+    line-height: normal;
+    padding: 5px;
+}
+
+.picture img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
