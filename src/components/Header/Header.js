@@ -7,13 +7,13 @@ const Navbar = () => {
    const {pathname} = useLocation()
    
     return (
-        
+           
             <nav className='navbar'
              style={
                  pathname.includes("Blog")? {display:'none'}: {display:'flex'}
                  } > 
                 <div>
-                    picture
+                    <h2 className='nav-title'>Matte Lipstick</h2>
                 </div>
                 <div className="link-container">
                 <NavLink className={({isActive})=> isActive ? 'active-link' : 'link'} to = '/Home'>Home</NavLink>

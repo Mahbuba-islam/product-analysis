@@ -27,3 +27,15 @@
     margin-top: 20px;
     
 }
+
+.review-container {
+   margin-left: 50px;
+
+}
+.review-heading {
+    width: 400px ;
+    text-align: center;
+    margin-left: 400px;
+    color: blueviolet;
+    margin-top: 60px;
+}
