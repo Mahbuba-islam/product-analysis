@@ -1,13 +1,15 @@
 
 import React from 'react';
 
-const Reviews = () => {
+const Reviews = ({use}) => {
     return (
         <div>
-           <h1>Customer Reviews</h1> 
+            this is reviews
         </div>
     );
 };
+
+
 
 export default Reviews;
 

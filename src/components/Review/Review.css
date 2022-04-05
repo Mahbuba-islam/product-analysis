@@ -1,0 +1,23 @@
+.review-section{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+
+.review-info{
+    width: 500px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 40px;
+    background: rgba(84, 187, 228, 0.041);
+}
+
+.review-btn button{
+    background: rgba(226, 116, 211, 0.308);
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    border-radius: 10%;
+}

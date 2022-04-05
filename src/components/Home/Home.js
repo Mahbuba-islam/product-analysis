@@ -1,8 +1,14 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 import './Home.css'
 
 
 const Home = () => {
+ 
+  // eslint-disable-next-line no-unused-vars
+  const [reviews, setReviews] = useReviews();
+   
   return (
     <div className='home-section'>
       <div className="product-container">
@@ -15,13 +21,25 @@ const Home = () => {
       </div>
         </div>
       
-      <div className="review-container">
+        
       <div className="review-heading">
       <h2>Here’s what some of our customers say about our products.</h2>
          <p>We appreciate our customers’ feedbacks!</p>
         </div>
       
+      <div className="review-container">
+      {
+         reviews.map(review => <Review
+         key = {review.id}
+         review = {review}>
+
+         </Review>)
+      }
+
       </div>
+        
+          
+     
 
     </div>
   );
@@ -31,25 +49,25 @@ export default Home;
 
 
 
-// import React, { useContext, useEffect } from 'react';
+ {/* import React, { useContext, useEffect } from 'react';
 // import Blog from '../Blog/Blog';
 // import {BlogContext} from '../../App'
-// const Home = () => {
-//   const [blogs,setBlogs] = useContext(BlogContext);
-//  useEffect(()=>{
-//      fetch('data.json')
+// const Home = () => { */}
+{/* //   const [blogs,setBlogs] = useContext(BlogContext);
+//  useEffect(()=>{ */}
+{/* //      fetch('data.json')
 //      .then((res) => res.json())
 //      .then((data) => setBlogs(data))
 //    }, [blogs,setBlogs])
 //     return (
 //         <div className='phones-container'>
-//             {blogs.map((blog, index) =>
+//             {blogs.map((blog, index) => */}
             
-//               <Blog key ={index} blog = {blog} />
+{/* //               <Blog key ={index} blog = {blog} />
 //             )}
-            
-//         </div>
+             */}
+{/* //         </div> */}
 //     );
 // };
 
-// export default Home;
+// export default Home; */}

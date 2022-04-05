@@ -22,10 +22,10 @@ function App() {
         <Route path ='/' element={<Home/>}/>
         <Route path ='/Home' element={<Home/>}/>
         <Route path ='/About' element={<About/>}/>
-        <Route path ='/Reviews' element={<Reviews/>}/>
+        {/* <Route path ='/Reviews' element={<Reviews/>}/> */}
         <Route path ='/DashBoard' element={<Dashboard/>}/>
         <Route path ='/Blogs' element={<Blogs/>}/>
-        {/* <Route path = '/Blog/:id' element ={<BlogDetails/>}/> */}
+        <Route path = '/Review/:id' element ={<Reviews/>}/>
         <Route path ='*' element={<Notfound/>}/>
        </Routes>  
 

@@ -39,3 +39,8 @@
     color: blueviolet;
     margin-top: 60px;
 }
+
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
