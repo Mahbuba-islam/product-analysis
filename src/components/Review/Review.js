@@ -6,7 +6,7 @@ const Review = (props) => {
     const { name, review, rating} = props.review
     return (
          
-        <div className='review-section'> {review.length > 3 ? review.length === 3 : review.length}
+        <div className='review-section'> 
          <div className="review-info">
          <h4>{name}</h4>
                <p>{review}</p>

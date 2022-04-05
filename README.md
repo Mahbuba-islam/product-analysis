@@ -1,6 +1,6 @@
 # lucky-one
 
-## live website link(https://calm-quokka-62172c.netlify.app/)
+## live website link(https://resilient-zuccutto-d50213.netlify.app/Home)
 
 ## This is first react-project-8
 

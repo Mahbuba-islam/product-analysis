@@ -5,8 +5,6 @@ import './Home.css'
 
 
 const Home = () => {
- 
-  // eslint-disable-next-line no-unused-vars
   const [reviews, setReviews] = useReviews();
    
   return (
@@ -28,13 +26,10 @@ const Home = () => {
         </div>
       
       <div className="review-container">
-      {
-         reviews.map(review => <Review
-         key = {review.id}
-         review = {review}>
-
-         </Review>)
-      }
+        {
+          reviews.map(review => <Review key = {review.id}
+          review = {review}></Review>)
+        }
 
       </div>
         
